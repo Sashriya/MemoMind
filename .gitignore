@@ -1,0 +1,30 @@
+# Qdrant local database — never commit this
+server/qdrant_data/
+qdrant_data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Environment variables — contains API keys
+.env
+.env.local
+.env.production
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
