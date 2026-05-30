@@ -1,16 +1,64 @@
-# React + Vite
+# 🧠 MemoMind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for creating, managing, and practicing flashcards to enhance learning and memory retention. Built with React, Vite, Tailwind CSS, and Python backend.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 📝 Flashcard Management
+- ✅ Create, edit, and delete flashcards
+- 📂 Organize flashcards into decks/sets
+- 🔍 Search and filter flashcards
+- 📊 Track learning progress
 
-## React Compiler
+### 🎮 Study Modes
+- 🔄 Flip card mode for self-testing
+- 📝 Quiz mode with multiple choice
+- ⏱️ Timed practice sessions
+- 📈 Progress tracking and statistics
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👤 User Features
+- 🔐 User authentication (Register/Login)
+- 👤 Personalized dashboard
+- 📊 Study statistics and analytics
+- 🔄 Sync across devices
 
-## Expanding the ESLint configuration
+### 🎨 Additional Features
+- 📱 Fully responsive design
+- 🌓 Dark/Light mode support
+- 📤 Import/Export flashcard sets
+- 🔗 Share decks with others
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+- **React 19** - UI framework
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **React Router DOM** - Routing
+- **Axios** - HTTP client
+
+### Backend (Python)
+- **FastAPI / Flask** - API framework
+- **SQLite / PostgreSQL** - Database
+- **JWT** - Authentication
+- **SQLAlchemy** - ORM
+
+### Development Tools
+- **ESLint** - Code linting
+- **PostCSS** - CSS processing
+- **Git** - Version control
+
+## 📋 Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn package manager
+- Python (v3.9 or higher) - for backend
+- SQLite or PostgreSQL database
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Sashriya/MemoMind.git
+cd MemoMind
